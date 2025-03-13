@@ -1,0 +1,68 @@
+/* Estilos generales para el contenedor del formulario de login */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Título del formulario */
+  .login-title {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para los grupos de entradas */
+  .div {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Etiquetas de los campos de entrada */
+  .input-label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+    display: block;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .evento {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  /* Efecto de enfoque en los campos de entrada */
+  .evento {
+    border-color: #007BFF;
+  }
+  
+  /* Estilos para el botón de login */
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+  

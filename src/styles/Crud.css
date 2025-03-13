@@ -1,0 +1,99 @@
+
+  /* Estilo principal del contenedor */
+  .notepad-container {
+    background-color: #333;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #F4F4F9;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 10%;
+   border: none
+    ;
+  }
+  /* Título principal */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    border: none;
+    
+    
+  }
+  /* Estilo para el campo de texto y botón de agregar */
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .input-container input {
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .input-container button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .input-container button:hover {
+    background-color: #0056B3;
+  }
+  /* Estilo para la lista de notas */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+  }
+  li.completed {
+    background-color: #D4EDDA;
+  }
+  li button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #FFC107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  li button:hover {
+    background-color: #E0A800;
+  }
+  /* Botón eliminar */
+  li button.delete {
+    background-color: #DC3545;
+  }
+  li button.delete:hover {
+    background-color: #C82333;
+  }
+  /* Botón editar */
+  li button.edit {
+    background-color: #007BFF;
+  }
+  li button.edit:hover {
+    background-color: #0056B3;
+  }
+  /* Estilo de texto completado */
+  .completed-text {
+    text-decoration: line-through;
+    color: #6C757D;
+  }

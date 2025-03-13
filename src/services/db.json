@@ -1,0 +1,46 @@
+{
+  "usuarios": [
+    {
+      "id": "9dd0",
+      "nombre": "Joseph Barboza",
+      "email": "j@gmail.com",
+      "pass": "1234"
+    },
+    {
+      "id": "471d",
+      "nombre": "barry vega",
+      "email": "b@gmail.com",
+      "pass": "1234"
+    },
+    {
+      "id": "8ece",
+      "nombre": "barry vega",
+      "email": "b@gmail.com",
+      "pass": "1234"
+    },
+    {
+      "id": "d575",
+      "nombre": "barry vega",
+      "email": "b@gmail.com",
+      "pass": "1234"
+    },
+    {
+      "id": "61e1",
+      "nombre": "",
+      "email": "",
+      "pass": ""
+    },
+    {
+      "id": "b62f",
+      "nombre": "",
+      "email": "",
+      "pass": ""
+    },
+    {
+      "id": "40d3",
+      "nombre": "",
+      "email": "",
+      "pass": ""
+    }
+  ]
+}
